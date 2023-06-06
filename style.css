@@ -1,0 +1,18 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.imagenDeGaleria {
+    width: 300px;
+    height: 300px;
+}
+
+.imagenDeGaleria:hover {
+    /* Agregué un estilo de bordado al momento de pasar el mouse por encima de la imagen */
+    border-width:medium ;
+    border-style: solid;
+    border-color: #000;
+}
+
